@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #34495e;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52,152,219,0.2);
+}
+
+button {
+    background: #3498db;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.whatsapp-share {
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.whatsapp-share h2 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+#whatsappButton {
+    background: #25D366;
+}
+
+#whatsappButton:hover {
+    background: #128C7E;
+}
+
+input[type="file"] {
+    padding: 8px;
+    background: #f8f9fa;
+}
+
+#clickCounter {
+    font-weight: bold;
+    color: #3498db;
+}
