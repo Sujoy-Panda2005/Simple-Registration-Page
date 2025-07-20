@@ -35,7 +35,7 @@ A sleek registration form website with WhatsApp sharing integration, built using
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/registration-website.git
+git clone https://github.com/Sujoy-Panda2005/Simple-Registration-Page.git
 ```
 
 2. Navigate to project directory:
